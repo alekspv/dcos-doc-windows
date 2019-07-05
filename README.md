@@ -1,4 +1,4 @@
-# DCOS Windows
+# DCOS Windows Documentation
 
 ## Upstream repositories:  
 [Example main.tf is an entry point to cluster setup ](https://github.com/dcos-terraform/examples/tree/feature/windows-support/aws/windows-agent).  
@@ -13,8 +13,9 @@
 [On-prem windows agent installation with choco and nssm](on-prem-win-agent-choco&nssm.md)  
 [Dev Env setup Guide]() !!TODO!! @Bielov
 
-## Arhitecture
+## Arhitecture  
 ### View and diagrams  
+#### DCOS Terraform modules dependencies  
 ### Terraform abstract  
 ### Ansible abstract  
 ### Jenkins workload
