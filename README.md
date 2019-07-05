@@ -11,7 +11,7 @@
 [Old vanilla mesos setup](vanillaMesosSetup.md)  
 [On-prem windows agent installation](on-prem-win-agent.md)  
 [On-prem windows agent installation with choco and nssm](on-prem-win-agent-choco&nssm.md)  
-[Dev Env setup Guide]() !!TODO!! @Bielov
+[Dev Env setup Guide](Development%32environment%32%28for%32Ansible%32playbooks%29.md)  
 
 ## Arhitecture  
 ### View and diagrams  
