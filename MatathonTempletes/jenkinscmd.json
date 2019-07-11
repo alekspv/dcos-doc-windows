@@ -1,0 +1,25 @@
+{
+    "id": "jenkinscmd",
+    "cmd": "docker run  -p 8080:8080 -p 50000:50000 jenkins/jenkins",
+    "cpus": 1,
+    "mem": 1024,
+    "disk": 0,
+    "instances": 1,
+    "constraints": [
+      [
+        "os",
+        "LIKE",
+        "linux"
+      ]
+    ],
+    "acceptedResourceRoles": [
+      "*"
+    ],
+    "portDefinitions": [
+      {
+        "port": 10001,
+        "name": "default",
+        "protocol": "tcp"
+      }
+    ]
+  }
