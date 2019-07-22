@@ -8,17 +8,17 @@ Docker container can be run with the following command:
 All further steps need to be performed inside a container.
 
 ## Steps
-1. Install Chocolatey package manager: 
+1. Install Chocolatey package manager:   
 `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
-2. Install build tools (git, cmake, visualstudio 2017 community, visualstudio 2017 build tools and visual c++ build tools):
+2. Install build tools (git, cmake, visualstudio 2017 community, visualstudio 2017 build tools and visual c++ build tools):  
 `choco install git cmake --installargs 'ADD_CMAKE_TO_PATH=System' visualstudio2017community visualstudio2017buildtools visualcpp-build-tools -y`
-3. Install GnuWin32 patch.exe:
+3. Install GnuWin32 patch.exe:  
 `mkdir c:\install && cd c:\install && wget.exe https://netix.dl.sourceforge.net/project/gnuwin32/patch/2.5.9-7/patch-2.5.9-7-setup.exe && .\patch-2.5.9-7-setup.exe /SILENT /SUPPRESSMSGBOXES`
-4. Refresh environment variables (sometimes it need to be run twice):
+4. Refresh environment variables (sometimes it need to be run twice):  
 `refreshenv`
-5. Clone Mesos repo from git:
+5. Clone Mesos repo from git:  
 `mkdir c:\build && cd c:\build && git clone https://github.com/alekspv/mesos.git`
-6. Configure using CMake for an out-of-tree build:
+6. Configure using CMake for an out-of-tree build:  
 `mkdir c:\build\mesos\build && cd c:\build\mesos\build && cmake .. -G "Visual Studio 15 2017 Win64" -T "host=x64"`
 7. Build Mesos:  
 `cmake --build .`
