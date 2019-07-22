@@ -12,7 +12,8 @@
 [On-prem windows agent installation](on-prem-win-agent.md)  
 [On-prem windows agent installation with choco and nssm](on-prem-win-agent-choco&nssm.md)  
 [Dev Env setup Guide](Development%32environment%32%28for%32Ansible%32playbooks%29.md)  
-[Marathon example templetes](MarathonTempletes)
+[Marathon example templetes](MarathonTempletes)  
+[How to build Windows Mesos binaries from source code](build-mesos-from-src.md)
 
 ## Arhitecture  
 ### View and diagrams  
