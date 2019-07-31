@@ -16,7 +16,8 @@
 [How to build Windows Mesos binaries from source code](build-mesos-from-src.md)
 
 ## Arhitecture  
-### View and diagrams  
+### View and [Diagrams](Diagrams)
+## Terraform modules dependencies 
 #### DCOS Terraform modules dependencies  
 ### Terraform abstract  
 ### Ansible abstract  
