@@ -1,8 +1,8 @@
 # Abstract
 
-Purpose of this guide walk reader threw installation process of Jenkins demo case with dynamic windows slaves.
-Key feature here is configuring Docker on Docker on  windows nano server DCOS nodes.
-Guide will walk you threw configuration steps and  tehnical aspects of this case
+Purpose of this guide walk reader threw installation process of Jenkins case study with dynamic windows slaves.
+Key feature here is configuring Docker on Docker on Windows nano server DCOS nodes.
+Guide will walk you threw configuration steps and tehnical aspects of this case.
 
 # Setup DCOS with Windows nodes
  
@@ -15,7 +15,6 @@ Guide will walk you threw configuration steps and  tehnical aspects of this case
 ## Jenkins Framework Setup
 
 
-
 # Build and deploy .Net applocation
 
 ## Build .Net App
@@ -25,4 +24,7 @@ Guide will walk you threw configuration steps and  tehnical aspects of this case
 ## DockerTLS Setup
 
 ## Build Docker image with the App and publish to Docker registry
+
+# Deploy To DCOS cluster
+
 
