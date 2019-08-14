@@ -128,16 +128,7 @@ dcos-diagnostics daemon
     Print version.
 </pre>
 
-
-
-**Run in PowerShell** 
-
-Run the following command
-
-```powershell
-$env:DCOS_VERSION=<dcos-version>
-```
-
+## Start service
 
 ```powershell
 nssm install
@@ -150,9 +141,11 @@ nssm install
 
 **Arguments:**  --config dcos-diagnostics-config.json --role agent daemon
 
+**Environment:** DCOS_VERSION=your-dcos-version
+
 press **Install service**
 
-Start dcos-diagnostics service
+Start mesos-agent service
 ```powershell
 sc start dcos-diagnostics
 ```
