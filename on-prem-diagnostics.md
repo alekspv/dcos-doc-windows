@@ -145,7 +145,7 @@ nssm install
 
 press **Install service**
 
-Start mesos-agent service
+Start dcos-diagnostics service
 ```powershell
-sc start dcos-diagnostics
+nssm start dcos-diagnostics
 ```
