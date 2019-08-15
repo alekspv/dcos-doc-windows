@@ -143,6 +143,8 @@ nssm install
 
 **Environment:** DCOS_VERSION=your-dcos-version
 
+**Service name:** dcos-diagnostics
+
 press **Install service**
 
 Start dcos-diagnostics service
